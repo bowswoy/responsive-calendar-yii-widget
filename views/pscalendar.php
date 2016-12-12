@@ -7,13 +7,9 @@
             <a class="pull-right" data-go="next">&raquo;</a>
         </div>
         <div class="day-headers">
-            <div class="day header">อา</div>
-            <div class="day header">จ</div>
-            <div class="day header">อ</div>
-            <div class="day header">พ</div>
-            <div class="day header">พฤ</div>
-            <div class="day header">ศ</div>
-            <div class="day header">ส</div>
+            <?php foreach($this->day as $d) { ?>
+            <div class="day header"><?php echo $d; ?></div>
+            <?php } ?>
         </div>
         <div class="days" data-group="days">
         </div>
