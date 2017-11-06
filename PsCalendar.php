@@ -1,5 +1,5 @@
 <?php
-
+// Mod Today
 class PsCalendar extends CWidget {
     public $day = array('sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat');
 	public $event = array();
